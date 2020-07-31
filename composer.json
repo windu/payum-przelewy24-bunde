@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "sensio/framework-extra-bundle": "3.0.*",
+    "sensio/framework-extra-bundle": "5.5.3",
     "payum/payum-bundle": "^2.1",
     "php-http/guzzle6-adapter": "^1.1"
   }
