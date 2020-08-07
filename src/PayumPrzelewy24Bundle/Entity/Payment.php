@@ -1,6 +1,6 @@
 <?php
 
-namespace Umbrella\PayumPrzelewy24Bundle\Entity;
+namespace pczyzyk\PayumPrzelewy24Bundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 use Payum\Core\Model\Payment as BasePayment;

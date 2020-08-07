@@ -1,6 +1,6 @@
 <?php
 
-namespace Umbrella\PayumPrzelewy24Bundle\Api;
+namespace pczyzyk\PayumPrzelewy24Bundle\Api;
 
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;

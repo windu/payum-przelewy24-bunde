@@ -1,6 +1,6 @@
 <?php
 
-namespace Umbrella\PayumPrzelewy24Bundle\Action;
+namespace pczyzyk\PayumPrzelewy24Bundle\Action;
 
 use Payum\Core\Action\ActionInterface;
 use Payum\Core\ApiAwareInterface;
@@ -15,7 +15,7 @@ use Payum\Core\Request\GetHttpRequest;
 use Payum\Core\Request\GetHumanStatus;
 use Payum\Core\Request\Notify;
 use Payum\Core\Security\GenericTokenFactoryAwareTrait;
-use Umbrella\PayumPrzelewy24Bundle\Api\ApiAwareTrait;
+use pczyzyk\PayumPrzelewy24Bundle\Api\ApiAwareTrait;
 
 class CaptureOffsite implements ApiAwareInterface, ActionInterface, GatewayAwareInterface
 {

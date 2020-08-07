@@ -1,6 +1,6 @@
 <?php
 
-namespace Umbrella\PayumPrzelewy24Bundle\Action;
+namespace pczyzyk\PayumPrzelewy24Bundle\Action;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Doctrine\Common\Persistence\ObjectRepository;
@@ -11,7 +11,7 @@ use Payum\Core\Exception\RequestNotSupportedException;
 use Payum\Core\GatewayAwareInterface;
 use Payum\Core\GatewayAwareTrait;
 use Payum\Core\Request\GetHumanStatus;
-use Umbrella\PayumPrzelewy24Bundle\Api\ApiAwareTrait;
+use pczyzyk\PayumPrzelewy24Bundle\Api\ApiAwareTrait;
 use Payum\Core\Model\PaymentInterface;
 
 class Notify implements ActionInterface, ApiAwareInterface, GatewayAwareInterface
