@@ -11,12 +11,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "Umbrella\\": "src/"
+      "pczyzyk\\": "src/"
     }
   },
   "require": {
     "sensio/framework-extra-bundle": "^5.1",
     "payum/payum-bundle": "^2.1",
-    "php-http/guzzle6-adapter": "2.0.1"
+    "php-http/guzzle6-adapter": "2.0.1",
+    "pczyzyk/payum-przelewy24-bundle": "dev-master"
   }
 }
