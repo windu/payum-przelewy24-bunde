@@ -1,5 +1,5 @@
 {
-  "name": "windu/payum-przelewy24-bundle",
+  "name": "pczyzyk/payum-przelewy24-bundle",
   "description": "Przelewy24 payments bundle for Symfony based on Payum",
   "license": "proprietary",
   "type": "project",
@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "windu\\": "src/"
+      "pczyzyk\\": "src/"
     }
   },
   "require": {
