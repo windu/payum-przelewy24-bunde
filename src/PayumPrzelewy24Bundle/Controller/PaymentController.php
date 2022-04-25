@@ -2,7 +2,7 @@
 
 namespace pczyzyk\PayumPrzelewy24Bundle\Controller;
 
-use FOS\RestBundle\Controller\Annotations\Route;
+use Symfony\Component\Routing\Annotation\Route;
 use Payum\Bundle\PayumBundle\Controller\PayumController;
 use Payum\Core\Request\GetHumanStatus;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
